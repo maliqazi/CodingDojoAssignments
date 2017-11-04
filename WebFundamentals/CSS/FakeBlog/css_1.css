@@ -1,0 +1,56 @@
+p{
+  color: blue;
+  font-family: "helvetica neue", arial, verdana, sans-serif;
+}
+
+h1{
+  color: brown;
+  font-family: "helvetica neue", arial, verdana, sans-serif;
+}
+
+h5{
+  color: green;
+  font-family: "helvetica neue", arial, verdana, sans-serif;
+  vertical-align: top;
+}
+
+h3{
+  color: red;
+}
+#div_chyears_legends{
+  column-count: 2;
+  column-gap: 1px;
+  border: 2px solid;
+  font-family: "helvetica neue", arial, verdana, sans-serif;
+}
+
+button{
+  border-radius: 5px;
+}
+div{
+  vertical-align: top;
+}
+.legends_list{
+  border: "2";
+  background-color: yellow;
+  width: 50%;
+  font-family: "helvetica neue", arial, verdana, sans-serif;
+}
+/*.players{
+  color: brown;
+  column-count: 5;
+  column-gap: 1px;
+  column-width: 50px;
+ vertical-align: text-top;
+  font-family: "helvetica neue", arial, verdana, sans-serif;
+  float: left;
+}*/
+#form_dream_team{
+  column-count: 5;
+  font-family: "helvetica neue", arial, verdana, sans-serif;
+  color: brown;
+}
+#pick_team{
+  text-align: center;
+  color: #8a5147;
+}
