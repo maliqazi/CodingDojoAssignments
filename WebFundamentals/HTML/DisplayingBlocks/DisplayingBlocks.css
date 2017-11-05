@@ -15,31 +15,36 @@
 #header{
   display: block;
   position:relative;
-  height: 100px;
+  height: 70px;
   margin-left: 90px;
 }
+
+.header img{
+  height: 60px;
+  width:  100px;
+}
 .header_contents1{
-  padding-right:  150px;
+  /*padding-right:  150px;
   padding-left: 50px;
   padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: blue;
+  padding-bottom: 50px;*/
+  /*background-color: blue;*/
   float: left;
 }
 
 .header_contents2{
   float: left;
   font-size: 20pt;
-  margin-top: 60px;
+  margin-top: 30px;
   font-weight: bold;
 }
 .header_contents3{
   float: left;
-  padding-right:  150px;
+/*  padding-right:  150px;
   padding-left: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: blue;
+  background-color: blue;*/
 }
 
 #id_blocks_1{
@@ -60,9 +65,16 @@
 }
 .class_blocks{
   display: block;
-  margin: 5px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   border-style: solid;
-  border-width: 2px;
-  background-color: brown;
-  padding: 50px;
+  border-width: 3px;
+}
+
+.subcontents img{
+  height: 100px;
+  width: 100px;
+  vertical-align:middle;
 }
