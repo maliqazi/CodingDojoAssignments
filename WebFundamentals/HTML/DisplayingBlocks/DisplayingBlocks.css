@@ -1,0 +1,68 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+ background-color: #b3ac8c;
+}
+
+/*.wrapper{
+ background-color: silver;
+ margin: 0px auto;
+ display: block;
+ padding: 100%;
+}*/
+
+#header{
+  display: block;
+  position:relative;
+  height: 100px;
+  margin-left: 90px;
+}
+.header_contents1{
+  padding-right:  150px;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: blue;
+  float: left;
+}
+
+.header_contents2{
+  float: left;
+  font-size: 20pt;
+  margin-top: 60px;
+  font-weight: bold;
+}
+.header_contents3{
+  float: left;
+  padding-right:  150px;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: blue;
+}
+
+#id_blocks_1{
+  display:inline-table;
+  margin-left: 10px;
+}
+#id_blocks_2{
+  display:inline-table;
+}
+#id_blocks_3{
+  display:inline-table;
+}
+#id_blocks_4{
+  display:inline-table;
+}
+#id_blocks_5{
+  display:inline-table;
+}
+.class_blocks{
+  display: block;
+  margin: 5px;
+  border-style: solid;
+  border-width: 2px;
+  background-color: brown;
+  padding: 50px;
+}
