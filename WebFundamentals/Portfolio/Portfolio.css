@@ -1,0 +1,201 @@
+*{
+}
+div	{
+	display:inline-block;
+}
+.wrapper {
+	width: 650px;
+  height: 740px;
+	background-color: #352833;
+}
+.header {
+    width: 650px;
+    height: 50px;
+    background-color: #fbf0f0e3;
+}
+.h_text {
+  width: 300px;
+  height: 50px;
+}
+#title{
+  display: inline;
+  position: relative;
+  top: 10px;
+  left: 15px;  font-size: 24px;
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.h_subtext{
+  width: 300px;
+  height: 50px;
+}
+#subtitle{
+  display: inline;
+  position: relative;
+  top: 5px;
+  left: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+.m_container{
+  width: 650px;
+  height: 200px;
+}
+.photo{
+  width: 300px;
+  height: 165px;
+  background-color: #fbf0e0e3;
+  position: relative;
+  left: 2%;
+  top:5%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #e8caca;
+}
+img{
+  height: inherit;
+  width: inherit;
+}
+.about {
+  width: 302px;
+  height: 175px;
+  background-color: #f7dceb;
+  position: relative;
+  left: 3%;
+  top:5%;
+  vertical-align: top;
+}
+.h_about{
+  width: 302px;
+  height: 35px;
+  background-color: #808080;
+  display: block;
+  position: relative;
+}
+#s_about, #s_lamode, #s_family, #s_five,#five_tech,#family_tech,#lamode_tech{
+  position: relative;
+  top: 8px;
+  left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Arial", Gadget, sans-serif;
+  color: white;
+}
+.p_about_1, .p_about_2, .p_about_3{
+  font-family: "Arial", Gadget, sans-serif;
+  font-size: 10px;
+  position: relative;
+  top: 0px;
+  left: 5px;
+}
+.d_sites{
+  height: 445px;
+  width: 200px;
+  position: relative;
+  top: 12%;
+  left: 2%;
+  margin-right: 7px;
+  vertical-align: top;
+}
+.project_title{
+  width: 200px;
+  height: 35px;
+  background-color: #808080;
+  display: block;
+  position: relative;
+}
+.project_image{
+  width: 200px;
+  height: 120px;
+  background-color: white;
+  display: block;
+  position: relative;
+}
+.project_desc{
+  width: 200px;
+  height: 120px;
+  background-color: #f7dceb;
+}
+.p_project_desc{
+  font-family: "Arial", Gadget, sans-serif;
+  font-size: 10px;
+  margin: 5px;
+  text-align: justify;
+}
+.project_tech{
+  width: 200px;
+  height: 35px;
+  background-color: #808080;
+  display: block;
+  position: relative;
+}
+.stack_icons{
+  width: 200px;
+  height: 85px;
+  background-color: #f7dceb;
+}
+.icons{
+  width: 31px;
+  height: 31px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+}
+.d_greenbtn{
+  width: 200px;
+  height: 35px;
+  background-color: #f7dceb;
+  justify-content: center;
+  display: flex;
+}
+.greenbtn{
+  background-color:#176d17;
+  position: relative;
+  height: 20px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#lamode, #family, #fiveeleven{
+  font-size: 11px;
+  font-weight: bold;
+  font-family: "Arial", Gadget, sans-serif;
+  color: white;
+}
+.footer{
+  position: relative;
+  top: 60%;
+  width: 650px;
+  height: 50px;
+  background-color: #fbf0f0e3;
+}
+.email_phone, .profilelinks{
+  position: relative;
+  height: 20px;
+  width: 650px;
+    text-align: center;
+}
+#email_phone{
+  font-size: 11px;
+  font-weight: bold;
+  font-family: "Arial", Gadget, sans-serif;
+  color: black;
+}
+.icon_links{
+  width: 12px;
+  height: 12px;
+  vertical-align: middle;
+}
+#jaynedev1, #jayne-doe, #jdtweets, #jaynedev2 {
+  font-size: 11px;
+  font-weight: bold;
+  font-family: "Arial", Gadget, sans-serif;
+  color: black;
+  font-style: italic;
+}
