@@ -1,0 +1,279 @@
+*{
+    font-family: "Arial", Gadget, sans-serif;
+}
+div	{
+  display:inline-block;
+}
+a {
+    all: unset;
+    color: #0d99ffde;
+}
+.wrapper{
+  width: 800px;
+  height: 800px;
+}
+.d_header{
+  width: inherit;
+}
+#f_theInternet,#f_thewww{
+  width: inherit;
+  height: 60px;
+}
+#f_thewww{
+  background: linear-gradient(#2b6994, grey, #2b6994);
+}
+#img_globe{
+  width: 90px;
+  height: 90px;
+  vertical-align: top;
+  position: relative;
+  top: -10px;
+  left: 5px;
+}
+#sp_theInter,#sp_net{
+  font-size: 32pt;
+  vertical-align: top;
+  position: relative;
+}
+#sp_theInter{
+  color: black;
+  top: 15px;
+}
+#sp_net{
+  color: #3f6d9e;
+  top: 0px;
+}
+#sp_www{
+  font-size: 24pt;
+  position: relative;
+  top: 15px;
+  left: 10px;
+  color: white;
+}
+.second_wrapper{
+  background: linear-gradient(#f1f0f082, white);
+}
+#d_leftpane{
+  height: 600px;;
+  width: 25%;
+}
+#d_upperleftpane{
+  height: 260px;
+  width: 100%;
+}
+#f_upperleftpane{
+  height: 250px;
+  width: 100%;
+  position: relative;
+  top:15px;
+}
+#sp_upperleftpane1{
+   font-weight: bold;
+}
+#sp_u_l_p_internet{
+  color: #e82c2c;
+}
+#sp_Inter,#sp_Net{
+  color: #0d99ffde;
+}
+#d_upperleftpane hr{
+  height: 2px;
+  background-color: #005c77;
+  position: relative;
+  top:45%;
+}
+#btn_watch{
+  border-radius: 5px;
+  position: relative;
+  top:5px;
+  font-size: 11px;
+  width: 100%;
+  height: 40px;
+  background-color:#669ece;
+  color: white;
+}
+#btn_moreres{
+  border-radius: 5px;
+  position: relative;
+  top: 7px;
+  font-size: 11px;
+  width: 100%;
+  height: 40px;
+  background-color:#e08922;
+  color: white;
+}
+#f_lowerleftpane{
+  height: 250px;
+  width: 100%;
+  position: relative;
+  top:0px;
+  text-align: center;
+}
+#img_ninjaback{
+  width: 100%;
+  height: 120%;
+}
+#sp_ninjatext{
+  color: white;
+  position: relative;
+  top: -290px;
+  font-size: 18pt;
+}
+#img_ninja{
+  width: 40%;
+  height: 50%;
+  position: relative;
+  top: -290px;
+  left: 1px;
+}
+#btn_learnmore{
+  border-radius: 5px;
+  position: relative;
+  top: -290px;
+  font-size: 14px;
+  width: 80%;
+  height: 35px;
+  background-color:#57cae2;
+  color: white;
+}
+#d_rightpane{
+  width: 595px;
+  height: 550px;
+  align-self: center;
+  vertical-align: top;
+}
+#f_rp_1,#f_rp_2{
+  height: 11%;
+}
+#f_rp_1{
+  width: 30%;
+  position: relative;
+  left: 20px;
+  top: 5px;
+}
+#f_rp_2{
+  width: 23%;
+  position: relative;
+  left: 445px;
+  top: -55px;
+  text-align: right;
+}
+#img_dns{
+  width: 10%;
+  vertical-align: middle;
+}
+#sp_dns{
+  color: white;
+  font-size: 14px;
+}
+#sp_f_rp_hours{
+  color: black;
+  font-size: 8px;
+}
+#sp_f_rp_phone{
+  color: #1792c3;
+  font-size: 20px;
+}
+#sp_f_rp_intntl{
+  color: black;
+  font-size: 8px;
+  position: relative;
+  top: -5px
+}
+#img_phone{
+  height: 8%;
+  width: 7%;
+  position: relative;
+  top: -110px;
+  left: 405px;
+}
+.f_rp_middle{
+  height: 500px;
+  width: 562px;
+  position: relative;
+  top: -100px;
+  left: 20px;
+}
+.f_rp_middle hr{
+  height: 2px;
+  background-color: #005c77;
+  position: relative;
+  top: 0px;
+}
+#sp_client_servers,#sp_happens{
+  color: #0d99ffde;
+  font-size: 13pt;
+  line-height: 150%;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+#sp_cli_ser_desc,#li_cli_ser_desc1,#li_cli_ser_desc2,#li_cli_ser_desc3,#li_cli_ser_desc4{
+  font-size: 9pt;
+}
+#sp_cli_ser_desc1,#li_cli_ser_desc1,#li_cli_ser_desc2,#li_cli_ser_desc3,#li_cli_ser_desc4{
+  color: #0d99ffde;
+}
+.li_cli{
+    font-size: 9pt;
+}
+#img_cli_ser{
+  height: 20%;
+  width: 50%;
+  position: relative;
+  left: 25%;
+}
+#sp_dnsserver,#sp_server,#sp_htpreq,#sp_okmsg{
+    color: #0d99ffde;
+}
+
+.d_footer{
+  width: 595px;
+  height: 130px;
+  align-self: center;
+  position: relative;
+  top: -250px;
+  left: 204px;
+}
+
+#f_footer{
+  height: 125px;
+  width: 22%;
+  border-style: solid;
+  position:relative;
+  left:18px;
+  border-width: 5px 0px 0px 5px;
+  border-color: #318dd4;
+}
+#img_f_footer{
+  height: 90px;
+  width: 100px;
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+#sp_f_footer1{
+  color: #0d99ffde;
+  font-size: 13pt;
+  line-height: 150%;
+  position: relative;
+  top: 15px;
+  left: 0px;
+}
+
+#sp_f_footer2, #sp_f_footer3 {
+  position: relative;
+  top: 15px;
+  font-size: 9pt;
+  line-height: 50%;
+}
+.f_footer2{
+    height: 125px;
+    width: 72%;
+    border-style: solid;
+    position:relative;
+    left:150px;
+    top: -130px;
+    border-width: 5px 5px 0px 0px;
+    border-color: #318dd4;
+  }
