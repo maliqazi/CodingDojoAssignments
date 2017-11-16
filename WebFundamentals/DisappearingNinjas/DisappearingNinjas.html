@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>DisappearingNinjas</title>
+    <link rel="stylesheet" type="text/css" href="DisappearingNinjas.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        //attach a click event listener to all the img tags when the document is ready
+            $('img').click(function(){
+                $(this).hide();
+            });
+
+            $('button').click(function() {
+                $('img').show();
+            });
+        });
+    </script>
+</head>
+<body>
+    <img src="images/adventure-cat.png" alt="adventure-cat.png"/>
+    <img src="images/aidorucat.png" alt="aidorucat.png"/>
+    <img src="images/catandninja.png" alt="catandninja.png" />
+    <img src="images/chellocat.jpg" alt="chellocat.jpg"/>
+    <img src="images/coder2.jpg" alt="coder2.jpg"/>
+    <img src="images/codercat.jpg" alt="codercat.jpg"/>
+    <img src="images/cooler.png" alt="cooler.png"/>
+    <img src="images/daftpunk.gif" alt="daftpunk.gif"/>
+    <button type="button">Restore</button>
+</body>
