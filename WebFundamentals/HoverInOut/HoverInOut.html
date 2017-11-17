@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>HoveringInOut</title>
+    <!--link rel="stylesheet" type="text/css" href="DisappearingNinjas.css"!-->
+    <style>
+        img{
+          height: 200px;
+          width: 200px;
+          display: inline;
+          vertical-align: top;
+          margin: 20px 20px 20px 20px;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('img').hover(function(){
+                var currentImage = $(this).attr("src");
+                var altImage = $(this).attr("alt");
+                $(this).attr("src", altImage );
+                $(this).attr("alt", currentImage);
+            }, function(){
+                var currentImage = $(this).attr("src");
+                var altImage = $(this).attr("alt");
+                $(this).attr("src", altImage );
+                $(this).attr("alt", currentImage);
+            });
+        });
+    </script>
+</head>
+<body>
+    <img src="images/adventure-cat.png" alt="images/coder2.jpg"/>
+    <img src="images/aidorucat.png" alt="images/codercat.jpg"/>
+    <img src="images/catandninja.png" alt="images/cooler.png" />
+    <img src="images/chellocat.jpg" alt="images/daftpunk.gif"/>
+</body>
